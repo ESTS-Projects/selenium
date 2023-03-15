@@ -1,0 +1,1 @@
+mvn compile exec:java -Dexec.mainClass="est.systems_si.selenium.App"
