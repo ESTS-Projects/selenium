@@ -120,13 +120,7 @@ public class App {
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[4]/div/div[2]/div[2]/button[1]")).click();
         Thread.sleep(CONFIG_TIMEOUT);
         
-        driver.findElement(By.xpath("//*[@id=\"cart\"]/button")).click();
-        Thread.sleep(2000);
-        
-        driver.findElement(By.xpath("//*[@id=\"cart\"]/ul/li[2]/div/p/a[1]")).click();
-        Thread.sleep(CONFIG_TIMEOUT);
-        
-        driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[2]/a")).click();
+        driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[5]/a")).click();
         Thread.sleep(CONFIG_TIMEOUT);
         
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[2]/a")).click();
