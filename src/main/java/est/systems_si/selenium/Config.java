@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Config {
     static final int timeout = 200;
+    static final int pause = 10000;
     static final String password = "my_password";
     static final String lastName = "my_last_name";
     static final String phoneNumber = "0656895632";

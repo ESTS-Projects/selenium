@@ -15,9 +15,9 @@ public class App {
         automateLogout(page);
         automateLogin(page);
         automateShoping(page);
+        Thread.sleep(Config.pause);
 
-        Thread.sleep(10000);
-        page.quit();
+        // page.quit();
     }
 
     private static void automateRegister(WebDriver page) throws InterruptedException {
