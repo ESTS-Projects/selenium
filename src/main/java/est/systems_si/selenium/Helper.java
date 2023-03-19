@@ -21,8 +21,8 @@ public class Helper {
 
         if (Config.driverType == "edge") {
             return new EdgeDriver();
+        } else {
+            return new ChromeDriver();
         }
-
-        return new ChromeDriver();
     }
 }
